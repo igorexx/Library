@@ -6,7 +6,7 @@ package app;
  */
 public class LibraryApp {
     private static void main(String[] args) {
-        final String APP_NAME = "Biblioteka v0.7";
+        final String APP_NAME = "Biblioteka v0.8";
         System.out.println(APP_NAME);
         LibraryControl libControl = new LibraryControl();
         libControl.controlLoop();
